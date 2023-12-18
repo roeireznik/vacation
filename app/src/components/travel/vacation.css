@@ -1,0 +1,25 @@
+html, body {
+    height: 100%;
+    background: lightsalmon;
+}
+
+#vacation-wrap {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.pagination {
+  padding: 20px ;
+  text-align: center;
+}
+
+.myVacations{
+  text-align: end;
+  margin: 2% 7% 1.5% 0;
+}
+
+#add-card-div {
+  text-align: right;
+  padding-bottom: 2%;
+}

@@ -1,0 +1,50 @@
+.card{
+  border-color: black;
+  height: 100%;
+}
+
+.timeprice{
+    display: flex;
+    justify-content: space-around;
+    color: #0000e1;
+    margin: 2px 0;
+    align-items: center;
+}
+
+.card-text{
+  margin-right: 7%;
+}
+
+.followers {
+    border: 1px solid rgb(0, 131, 11);
+    border-radius: 0 0 0.375rem 0;
+    color: white;
+    background: rgb(0, 131, 11);
+    text-align: center;
+}
+
+.f-icon {
+    position: absolute;
+    top: 22px;
+    right: 15px;
+    border: 1px solid;
+    border-radius: 46%;
+    text-align: center;
+    width: 26px;
+}
+
+.follow {
+    background-color: yellow;
+}
+
+#delete {
+  position: absolute;
+  top: 20px;
+  right: 15px;
+}
+
+#edit {
+  position: absolute;
+  top: 60px;
+  right: 15px;
+}
